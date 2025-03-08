@@ -6,6 +6,6 @@ int main()
 	scanf_s("%f%f%f", &a, &b, &c);
 	d = (a + b + c) / 2;
 	e = sqrt(d * (d-a) * (d-b) * (d-c));
-	printf("%f\n", e);
+	printf("%.2f\n", e);
 	return 0;
 }
